@@ -1,0 +1,86 @@
+﻿Build started 6/18/2014 7:10:49 AM.
+     1>Project "c:\Users\Logan\documents\visual studio 2013\Projects\CS172_Exam2\CS172_Exam2\CS172_Exam2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Runner.cpp
+         Runner.cpp
+         Main.cpp
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(15): error C2678: binary '>>' : no operator found which takes a left-hand operand of type 'std::basic_istream<char,std::char_traits<char>>' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(485): could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(466): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(448): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(430): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(411): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(392): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(373): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(353): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(335): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(317): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(291): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(272): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(237): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(218): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::_Bool &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(211): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(204): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(198): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1103): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,int>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)'
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1093): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1086): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1079): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(1072): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+                 while trying to match the argument list '(std::basic_istream<char,std::char_traits<char>>, int)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(33): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(33): error C2446: '<=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(33): error C2296: '<=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(36): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(36): error C2446: '>=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(36): error C2296: '>=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(36): error C2446: '<=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(36): error C2296: '<=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(39): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(39): error C2446: '>=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(39): error C2296: '>=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(39): error C2446: '<=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(39): error C2296: '<=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(42): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(42): error C2446: '>=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(42): error C2296: '>=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(42): error C2446: '<=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(42): error C2296: '<=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(45): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(45): error C2446: '>=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(45): error C2296: '>=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(45): error C2446: '<=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(45): error C2296: '<=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(48): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(48): error C2446: '>=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(48): error C2296: '>=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(48): error C2446: '<=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(48): error C2296: '<=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(51): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(51): error C2446: '>=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(51): error C2296: '>=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(51): error C2446: '<=' : no conversion from 'int' to 'int (__thiscall Runner::* )(void)'
+                 There are no conversions from integral values to pointer-to-member values
+     1>c:\users\logan\documents\visual studio 2013\projects\cs172_exam2\cs172_exam2\main.cpp(51): error C2296: '<=' : illegal, left operand has type 'int (__thiscall Runner::* )(void)'
+         Generating Code...
+     1>Done Building Project "c:\Users\Logan\documents\visual studio 2013\Projects\CS172_Exam2\CS172_Exam2\CS172_Exam2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.91
